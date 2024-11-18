@@ -67,12 +67,12 @@ print("Joined string:", joined_string)
 split_list = "a ,b, c".split(",")
 print("Split list:", split_list)
 
-# txt = "welcome to the jungle"
+txt = "welcome to the jungle"
 
-# x = txt.split()
-# print(x)
-# text=" ".join(x)
-# print(text)
+x = txt.split()
+print(x)
+text=" ".join(x)
+print(text)
 
 # 7. Nested Lists
 print("\n7. Nested Lists")
