@@ -3,6 +3,11 @@
 
 ## 1. Basic List Operations
 # ----------------------------
+# List is a collection which is ordered and changeable. Allows duplicate members.
+
+# List items are ordered, changeable, and allow duplicate values.
+
+# List items are indexed, the first item has index [0], the second item has index [1] etc
 for i in range(4):
     print(i)
 list1=[1,2,3,4]
