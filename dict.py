@@ -1,4 +1,9 @@
 # Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+
+# Dictionary items are ordered, changeable, and do not allow duplicates.
+
+# Dictionary items are presented in key:value pairs, and can be referred to by using the key name
 # 1. Creating a dictionary
 thisdict = {
     "brand": "Ford",
