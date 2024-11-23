@@ -1,4 +1,6 @@
 # Creating a tuple
+
+# Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
 mytuple = ("apple", "banana", "cherry", "cherry")
 print("Original Tuple:", mytuple)
 

@@ -1,3 +1,4 @@
+# Dictionary is a collection which is ordered** and changeable. No duplicate members.
 # 1. Creating a dictionary
 thisdict = {
     "brand": "Ford",
@@ -88,4 +89,10 @@ print("Fromkeys:", newdict)
 11. values()    - Returns a view object of values
 12. del         - Deletes a key or the entire dictionary
 """
+
+
+
+
+
+
 
