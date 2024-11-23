@@ -3,6 +3,21 @@
 
 ## 1. Basic List Operations
 # ----------------------------
+for i in range(4):
+    print(i)
+list1=[1,2,3,4]
+list2=list1.copy( )
+list2.sort(reverse=True)
+print(list1,list2)
+if list1==list2:
+    print('ues')
+else:
+    print('no')
+# for x in range(4):
+#     print(x)
+
+
+
 fruits = ['orange', 'apple', 'pear', 'banana', 'kiwi', 'apple', 'banana']
 print("\n1. Basic List Operations")
 print("Original List:", fruits)
@@ -74,9 +89,12 @@ split_list = "a ,b, c".split(",")
 print("Split list:", split_list)
 
 txt = "welcome to the jungle"
-x = txt.split()
+s = "  hello world  "
+x = s.split()
+x.reverse()
 print(x)
 text=" ".join(x)
+
 print(text)
 
 ## 7. Nested Lists
@@ -119,3 +137,4 @@ unzipped = list(zip(*zipped))
 print("Unzipped lists:", unzipped)
 flat_list = [item for sublist in nested_list for item in sublist]
 print("Flattened nested list:", flat_list)
+
